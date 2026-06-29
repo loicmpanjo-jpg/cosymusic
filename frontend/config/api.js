@@ -1,6 +1,6 @@
 // COSY v4.9 — API Configuration
 const COSY_API = {
-  baseURL: 'https://api.cosy.africa/v4',
+  baseURL: 'https://cosy-api-s5qb.onrender.com/api/v0',
 
   endpoints: {
     // Auth
