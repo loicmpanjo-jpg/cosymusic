@@ -1,0 +1,34 @@
+{
+  "name": "cosy-creator-ecosystem",
+  "version": "4.9.0",
+  "description": "COSY Creator Ecosystem Platform — African music, creators, and advertisers",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site — no build needed'",
+    "icons": "node assets/icons/generate.js",
+    "lint": "echo 'No linter configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "music",
+    "africa",
+    "creator",
+    "streaming",
+    "monetization",
+    "pwa"
+  ],
+  "author": "COSY Team",
+  "license": "Proprietary",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.32.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
